@@ -1,0 +1,47 @@
+<html>
+    <title>Program no 2</title>
+<body>
+    <style>
+        #div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+
+    <script>
+        function addDate() {
+            document.getElementById("date").value = new Date();
+        }
+        function onSubmit() {
+            var text = document.getElementById("text").value;
+            document.getElementById("message").innerHTML = 'You wrote: ' + text;
+        }
+        function loadImage() {
+            document.getElementById('load').innerText = "Image Loaded";
+        }
+        function changeColor() {
+            document.getElementById('div').style.backgroundColor = "green";
+        }
+    </script>
+
+    <h1>OnClick Example</h1>
+    <input type="text" placeholder="Current Date" id="date"> <br>
+    <button onclick="addDate()">Click me</button>
+
+    <form onsubmit="onSubmit()">
+        <h1>OnSubmit Example</h1>
+        <p id="message">Message</p>
+        <input type="text" id="text" placeholder="Enter Something"> <br>
+        <input type="submit" placeholder="Submit">
+    </form>
+
+    <h1>OnLoad Example</h1>
+    <p id="load"></p>
+    <img src="https://www.w3schools.com/js/pic_bulbon.gif" id="image" onload="loadImage()">
+
+    <h1>OnMouseHover Example</h1>
+    <div id="div" onmouseover="changeColor()"></div>
+
+</body>
+</html>

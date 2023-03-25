@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Program no 3</title>
+</head>
+<body>
+
+    <script>
+        function validateForm() {
+            var form = document.getElementById("form");
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            if (phone == "") {
+                alert("Phone must be filled out");
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <form onsubmit="return validateForm()" id="form">
+        <h1>Form Validation</h1>
+        <input type="text" placeholder="Enter Name" id="name"> <br>
+        <input type="text" placeholder="Enter Email" id="email"> <br>
+        <input type="text" placeholder="Enter Phone" id="phone"> <br>
+        <input type="submit" placeholder="Submit">
+    </form>
+</body>
+</html>
