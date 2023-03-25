@@ -16,11 +16,11 @@ Solutions of the problems given to us by Jaya Sundar Silpakar Sir
 
 ## Completition Status
 
-- [ ] C Programming
+- [x] C Programming
 
 - [x] Web Technology
 
-- [ ] Database Management System
+- [x] Database Management System
 
 ## Special Thanks To
 
