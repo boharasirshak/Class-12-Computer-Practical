@@ -13,3 +13,11 @@ Solutions of the problems given to us by Jaya Sundar Silpakar Sir
 ## [Database Management System](/DBMS/)
 
 ![Database Management System Questions](/imgs/3.png)
+
+## Completition Status
+
+- [ ] C Programming
+
+- [x] Web Technology
+
+- [ ] Database Management System
