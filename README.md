@@ -2,14 +2,14 @@
 
 Solutions of the problems given to us by Jaya Sundar Silpakar Sir
 
-## C Programming
+## [C Programming](/C%20Programming/)
 
 ![C Programming Questions](/imgs/1.png)
 
-## Web Technology
+## [Web Technology](/Web%20Technology/)
 
 ![Web Technology Questions](/imgs/2.png)
 
-## Database Management System
+## [Database Management System](/DBMS/)
 
 ![Database Management System Questions](/imgs/3.png)
